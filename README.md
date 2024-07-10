@@ -1,7 +1,7 @@
 # My_SQL_Data-Cleaning-Project
 
+```sql
 -- https://www.kaggle.com/datasets/swaptr/layoffs-2022
-
 
 SELECT * 
 FROM world_layoffs.layoffs;
