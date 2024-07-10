@@ -1,4 +1,4 @@
-# My_SQL_Data-Cleaning-Project
+### My_SQL_Data-Cleaning-Project
 
 ```sql
 -- https://www.kaggle.com/datasets/swaptr/layoffs-2022
@@ -312,9 +312,11 @@ AND percentage_laid_off IS NULL;
 SELECT * 
 FROM world_layoffs.layoffs_staging2;
 
+
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
 
 
 SELECT * 
 FROM world_layoffs.layoffs_staging2;
+```
